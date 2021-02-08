@@ -41,3 +41,9 @@ volumes:
   minecraft_data:
     external: true
 ```
+
+## Running
+
+```
+docker-compose run --rm mc-restore world-20210208-080611.tgz
+```
