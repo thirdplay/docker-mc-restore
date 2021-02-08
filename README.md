@@ -4,7 +4,7 @@ Provides a function to back up the world data of minecraft-server.
 
 ## Environment variables
 
-- `BACKUP_DIR`=/backups
+- `BACKUPS_DIR`=/backups
 - `DATA_DIR`=/data
 - `SERVER_NAME`=minecraft
 
