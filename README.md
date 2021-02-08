@@ -14,9 +14,11 @@ Please set the container name of `itzg/minecraft-server` in `SERVER_NAME` .
 ## Volumes
 
 - `/data` :
-  Should be attached read-only to the same volume as the `/data` of the `itzg/minecraft-server` container
+  Should be attached read-only to the same volume as the `/data` of the `itzg/minecraft-server` container.
 - `/backups` :
   Volume where the backup file is stored.
+- `/var/run/docker.sock` :
+  `mc-restore` requires `DooD` to check the startup status.
 
 ## Example
 
