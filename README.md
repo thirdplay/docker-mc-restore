@@ -34,9 +34,9 @@ services:
     environment:
       SERVER_NAME: "minecraft"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
       - minecraft_data:/data
       - /var/backups:/backups:ro
+      - /var/run/docker.sock:/var/run/docker.sock
 volumes:
   minecraft_data:
     external: true
